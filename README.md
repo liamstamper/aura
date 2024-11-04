@@ -1,2 +1,2 @@
 # auroa
-Lightweight Python HTTP
+Lightweight Python HTTP client
