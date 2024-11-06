@@ -2,7 +2,7 @@ import requests
 from typing import Dict, Any, Optional
 
 
-class AuroaClient:
+class AuraClient:
     def __init__(self, base_url: str = ""):
         self.base_url = base_url
         self.default_headers: Dict[str, str] = {}

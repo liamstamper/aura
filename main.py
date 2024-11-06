@@ -1,9 +1,9 @@
 # main.py
-from client import AuroaClient
+from client import AuraClient
 
 def main():
     # Initialize the client with a base URL
-    client = AuroaClient(base_url="https://jsonplaceholder.typicode.com")
+    client = AuraClient(base_url="https://jsonplaceholder.typicode.com")
 
     # Optionally, set default headers for all requests
     client.set_default_headers({"Accept": "application/json"})
