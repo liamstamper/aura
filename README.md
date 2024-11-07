@@ -18,7 +18,7 @@ Import and initialize the client by specifying the base URL for your API.
 from Aura import AuraClient
 
 # Initialize the client with a base URL
-client = auraClient(base_url="https://jsonplaceholder.typicode.com")
+client = AuraClient(base_url="https://jsonplaceholder.typicode.com")
 
 # Set default headers (optional)
 client.set_default_headers({"Accept": "application/json"})
